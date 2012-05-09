@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4184670715598FBA003646DD /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4184670615598FBA003646DD /* GLUT.framework */; };
+		4184670915598FE3003646DD /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4184670815598FE3003646DD /* OpenGL.framework */; };
+		4184670B15599233003646DD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4184670A15599232003646DD /* Cocoa.framework */; };
+		41FBAC0B155A9EF700AAC5AB /* arcball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41FBAC04155A9EF700AAC5AB /* arcball.cpp */; };
+		41FBAC0C155A9EF700AAC5AB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41FBAC0A155A9EF700AAC5AB /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		418466F715598F7E003646DD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		418466F915598F7E003646DD /* GLUTBaseApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GLUTBaseApp; sourceTree = BUILT_PRODUCTS_DIR; };
+		4184670615598FBA003646DD /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		4184670815598FE3003646DD /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		4184670A15599232003646DD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		41FBAC04155A9EF700AAC5AB /* arcball.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = arcball.cpp; path = src/arcball.cpp; sourceTree = "<group>"; };
+		41FBAC05155A9EF700AAC5AB /* arcball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arcball.h; path = src/arcball.h; sourceTree = "<group>"; };
+		41FBAC06155A9EF700AAC5AB /* circularbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = circularbuffer.h; path = src/circularbuffer.h; sourceTree = "<group>"; };
+		41FBAC07155A9EF700AAC5AB /* clock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clock.h; path = src/clock.h; sourceTree = "<group>"; };
+		41FBAC08155A9EF700AAC5AB /* fpsclock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fpsclock.h; path = src/fpsclock.h; sourceTree = "<group>"; };
+		41FBAC09155A9EF700AAC5AB /* glutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = glutils.h; path = src/glutils.h; sourceTree = "<group>"; };
+		41FBAC0A155A9EF700AAC5AB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		418466F615598F7E003646DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4184670B15599233003646DD /* Cocoa.framework in Frameworks */,
+				4184670915598FE3003646DD /* OpenGL.framework in Frameworks */,
+				4184670715598FBA003646DD /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		418466EE15598F7E003646DD = {
+			isa = PBXGroup;
+			children = (
+				418467121559A327003646DD /* Utils */,
+				4184671115599454003646DD /* Frameworks */,
+				418466FA15598F7E003646DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		418466FA15598F7E003646DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				418466F915598F7E003646DD /* GLUTBaseApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4184671115599454003646DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4184670A15599232003646DD /* Cocoa.framework */,
+				4184670815598FE3003646DD /* OpenGL.framework */,
+				4184670615598FBA003646DD /* GLUT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		418467121559A327003646DD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				41FBAC04155A9EF700AAC5AB /* arcball.cpp */,
+				41FBAC05155A9EF700AAC5AB /* arcball.h */,
+				41FBAC06155A9EF700AAC5AB /* circularbuffer.h */,
+				41FBAC07155A9EF700AAC5AB /* clock.h */,
+				41FBAC08155A9EF700AAC5AB /* fpsclock.h */,
+				41FBAC09155A9EF700AAC5AB /* glutils.h */,
+				41FBAC0A155A9EF700AAC5AB /* main.cpp */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		418466F815598F7E003646DD /* GLUTBaseApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4184670315598F7E003646DD /* Build configuration list for PBXNativeTarget "GLUTBaseApp" */;
+			buildPhases = (
+				418466F515598F7E003646DD /* Sources */,
+				418466F615598F7E003646DD /* Frameworks */,
+				418466F715598F7E003646DD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLUTBaseApp;
+			productName = TrivialGLUT;
+			productReference = 418466F915598F7E003646DD /* GLUTBaseApp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		418466F015598F7E003646DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 418466F315598F7E003646DD /* Build configuration list for PBXProject "GLUTBaseApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 418466EE15598F7E003646DD;
+			productRefGroup = 418466FA15598F7E003646DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				418466F815598F7E003646DD /* GLUTBaseApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		418466F515598F7E003646DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FBAC0B155A9EF700AAC5AB /* arcball.cpp in Sources */,
+				41FBAC0C155A9EF700AAC5AB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4184670115598F7E003646DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4184670215598F7E003646DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4184670415598F7E003646DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = GLUTBaseApp;
+			};
+			name = Debug;
+		};
+		4184670515598F7E003646DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = GLUTBaseApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		418466F315598F7E003646DD /* Build configuration list for PBXProject "GLUTBaseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4184670115598F7E003646DD /* Debug */,
+				4184670215598F7E003646DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4184670315598F7E003646DD /* Build configuration list for PBXNativeTarget "GLUTBaseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4184670415598F7E003646DD /* Debug */,
+				4184670515598F7E003646DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 418466F015598F7E003646DD /* Project object */;
+}
